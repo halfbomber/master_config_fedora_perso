@@ -1,0 +1,17 @@
+# @Author: BAGOUET Alexandre <alex>
+# @Date:   2019-01-02T17:25:22+01:00
+# @Last modified by:   alex
+# @Last modified time: 2019-01-02T17:25:47+01:00
+# @Copyright: Tous droits recervés Alexandre Bagouet
+
+
+
+---
+tools_packages:
+  - vim
+  - htop
+  - git
+  - bash-completion
+  - ansible
+  - atom
+  

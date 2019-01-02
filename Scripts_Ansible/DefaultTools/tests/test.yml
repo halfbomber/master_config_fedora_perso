@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - /home/alex/Documents/Dev_Projects/master_config_fedora_perso/Scripts_Ansible/DefaultTools

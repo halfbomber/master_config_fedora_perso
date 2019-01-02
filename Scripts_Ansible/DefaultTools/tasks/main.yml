@@ -1,0 +1,18 @@
+# @Author: BAGOUET Alexandre <alex>
+# @Date:   2019-01-02T17:25:22+01:00
+# @Last modified by:   alex
+# @Last modified time: 2019-01-02T17:26:04+01:00
+# @Copyright: Tous droits recervés Alexandre Bagouet
+
+
+
+---
+- name: Installation des packets par defaut
+  become: yes
+  yum:
+    name: "{{ item }}"
+    state: latest
+    update_cache: yes
+  with_items:
+    - "{{ tools_packages }}"
+...
