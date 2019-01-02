@@ -1,0 +1,13 @@
+# @Author: BAGOUET Alexandre <alex>
+# @Date:   2019-01-02T16:59:11+01:00
+# @Last modified by:   alex
+# @Last modified time: 2019-01-02T16:59:14+01:00
+# @Copyright: Tous droits recervés Alexandre Bagouet
+
+
+
+- hosts: localhost
+  name: installation et configuration de base sur tous serveurs
+  roles:
+    - Repos
+    - DefaultTools
