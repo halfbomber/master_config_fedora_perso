@@ -8,3 +8,19 @@
 
 ---
 # handlers file for /home/alex/Documents/Dev_Projects/master_config_fedora_perso/Scripts_Ansible/Repos
+#fedora
+https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+#fedora,centos,RedHat
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+#CentOS-6
+
+http://dl.fedoraproject.org/pub/epel/6/i3http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+#CentOS-7
+http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-1.noarch.rpm
+http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
+https://download1.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-7.noarch.rpm
